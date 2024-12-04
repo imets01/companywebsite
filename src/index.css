@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-navbar {
+    @apply bg-gradient-to-l from-teal-900 via-teal-800 to-teal-900;
+  }
+}
